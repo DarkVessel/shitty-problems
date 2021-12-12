@@ -63,6 +63,8 @@ function generateMenu(path, currentMenu, menu) {
 
     prompt.run()
         .then((d) => {
+            console.clear();
+            
             // Если назад - удаляем последний элемент.
             if (d === "> Назад") path.pop();
             else path.push(d);
