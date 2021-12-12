@@ -1,0 +1,29 @@
+{
+  "name": "shitty-problems",
+  "version": "0.1.0",
+  "description": "Это тестовый проект, в котором я буду собирать все авто-скрипты для решения каких-то проблем. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkVessel/shitty-problems.git"
+  },
+  "keywords": [
+    "linux",
+    "arch",
+    "archlinux",
+    "bash",
+    "help"
+  ],
+  "author": "DarkVessel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkVessel/shitty-problems/issues"
+  },
+  "homepage": "https://github.com/DarkVessel/shitty-problems#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
+}
