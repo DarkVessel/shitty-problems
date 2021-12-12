@@ -1,6 +1,6 @@
 {
   "name": "shitty-problems",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Это тестовый проект, в котором я буду собирать все авто-скрипты для решения каких-то проблем. ",
   "main": "index.js",
   "scripts": {

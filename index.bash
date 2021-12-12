@@ -6,6 +6,11 @@ COLOR_GREEN="\e[32m"
 COLOR_YELLOW="\e[33m"
 ENDCOLOR="\e[0m"
 
+# Удаляем файл start.bash если он есть...
+if [ -f ./start.bash ]; then
+    rm start.bash
+fi
+
 # Массив, из недостающих зависимостей.
 declare -a missingDependencies
 
@@ -53,3 +58,7 @@ echo ""
 echo -e "${COLOR_YELLOW}> Запуск.....${ENDCOLOR}"
 echo -e "${COLOR_GREEN}node index.js${ENDCOLOR}"
 node index.js
+
+if [ -f ./start.bash ]; then
+    bash start.bash
+fi
